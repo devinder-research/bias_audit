@@ -1,0 +1,54 @@
+{
+  "selected": {
+    "M1": "a",
+    "M2": "a"
+  },
+  "development": {
+    "M1": {
+      "candidates": [
+        {
+          "id": "a",
+          "accuracy": 0.591715976331361,
+          "strict_accuracy_loss_pp": -4.166666666666669,
+          "accuracy_loss_pp": 1.3547181563375865,
+          "ambig_reduction": -0.009126984126984178,
+          "qualifies": true
+        },
+        {
+          "id": "b",
+          "accuracy": 0.5031055900621118,
+          "strict_accuracy_loss_pp": 5.729166666666669,
+          "accuracy_loss_pp": 10.215756783262508,
+          "ambig_reduction": -0.010793650793650834,
+          "qualifies": false
+        }
+      ],
+      "selected": "a",
+      "fallback": false
+    },
+    "M2": {
+      "candidates": [
+        {
+          "id": "a",
+          "accuracy": 0.625,
+          "strict_accuracy_loss_pp": -14.583333333333332,
+          "accuracy_loss_pp": -1.9736842105263164,
+          "ambig_reduction": -0.025793650793650882,
+          "qualifies": true
+        },
+        {
+          "id": "b",
+          "accuracy": 0.59375,
+          "strict_accuracy_loss_pp": -11.458333333333332,
+          "accuracy_loss_pp": 1.1513157894736836,
+          "ambig_reduction": -0.11954365079365084,
+          "qualifies": true
+        }
+      ],
+      "selected": "a",
+      "fallback": false
+    }
+  },
+  "protocol": "4761d6c71458027323e9bd56ac7759e804471525a23171244129a7d68f7b14c1",
+  "development_identity": "51c8ba283c3629cee08ba687b4e6928f395e7295ab986bf180d224f1166ce791"
+}

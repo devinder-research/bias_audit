@@ -1,0 +1,17 @@
+{
+  "protocol": "bbq-audit-v1",
+  "source_revision": "bea11bd97d79217245b5871acd247b9d6eb24598",
+  "categories": ["Age", "Gender_identity", "Race_ethnicity", "Religion"],
+  "models": {"llama3.2:3b": "a80c4f17acd5", "mistral:7b-instruct": "6577803aa9a0"},
+  "ollama_url": "http://127.0.0.1:11434",
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "sample_seed": 26004,
+  "bootstrap_seed": 26008,
+  "bootstrap_draws": 2000,
+  "bbq_options": {"temperature": 0, "seed": 26004, "num_predict": 24, "num_ctx": 4096},
+  "own_options": {"temperature": 0.7, "num_predict": 128, "num_ctx": 4096},
+  "generation_seeds": [101, 211, 307, 401, 503, 601, 701, 809, 907, 1009],
+  "expected_requests": {"development": 960, "test": 5376, "robustness": 3840, "own": 3240},
+  "utility_limit_pp": 3.0
+}

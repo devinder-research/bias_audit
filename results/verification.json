@@ -1,0 +1,28 @@
+{
+  "protocol": "4761d6c71458027323e9bd56ac7759e804471525a23171244129a7d68f7b14c1",
+  "unit_tests_passed": 9,
+  "models": {
+    "llama": {
+      "tag": "llama3.2:3b",
+      "smoke_requests": 18,
+      "estimated_hours": 1.7082510911863886
+    },
+    "mistral": {
+      "tag": "mistral:7b-instruct",
+      "smoke_requests": 18,
+      "estimated_hours": 4.496590154708488
+    }
+  },
+  "prior_hardware": {
+    "chip": "Apple M2",
+    "memory_bytes": 17179869184,
+    "machine": "arm64"
+  },
+  "separate_model_scheduler": "passed: only selected model generated, 6,228 evaluation requests per model",
+  "shared_prepare_scheduler": "passed: 480 development requests per model; fixed pooled selection",
+  "csv_and_figure_exports": "passed: per-model and combined CSV/PNG/SVG; PNGs visually inspected",
+  "offline_reports": "passed: per-model and combined, no HTTP; human notes preserved",
+  "full_experiment_executed": false,
+  "shared_development_executed": false,
+  "smoke_repeat": "zero pending with inference disabled; both JSONL files byte-identical"
+}

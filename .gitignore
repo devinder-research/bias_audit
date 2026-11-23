@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.audit.lock
+data/encoder/
+results/**/responses.jsonl
+results/metrics.json
+results/**/metrics.json
+*.tmp
+*.download

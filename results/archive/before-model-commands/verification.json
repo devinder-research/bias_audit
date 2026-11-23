@@ -1,0 +1,20 @@
+{
+  "protocol": "4ec5050e4f189e34054be2bf34febf5850f4c1886b57036bbf5a837c374449b6",
+  "hardware": {
+    "chip": "Apple M2",
+    "memory_bytes": 17179869184,
+    "machine": "arm64"
+  },
+  "python": "3.10.11",
+  "ollama_version": "0.40.17",
+  "unit_tests_passed": 8,
+  "synthetic_full_request_count": 13416,
+  "synthetic_report_and_offline_rerender": "passed; temporary artifacts removed",
+  "official_target_alignment": "all eligible official items and three choices checked against polarity-adjusted target_loc",
+  "hardware_smoke_requests": 36,
+  "partial_resume": "two initial records preserved; 34 missing generated",
+  "full_experiment_executed": false,
+  "estimated_inference_hours": 5.664704051353319,
+  "repeat_smoke": "zero pending; response file byte-identical",
+  "incomplete_report_only": "refused without HTTP"
+}

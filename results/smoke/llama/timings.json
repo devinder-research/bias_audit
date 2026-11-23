@@ -1,0 +1,15 @@
+{
+  "protocol": "4761d6c71458027323e9bd56ac7759e804471525a23171244129a7d68f7b14c1",
+  "model": "llama3.2:3b",
+  "timings": {
+    "bbq": {
+      "mean_seconds": 0.6030351145835388,
+      "n": 12
+    },
+    "own": {
+      "mean_seconds": 1.9021365834999717,
+      "n": 6
+    }
+  },
+  "estimated_hours": 1.7082510911863886
+}
