@@ -62,6 +62,8 @@ To evaluate the models one at a time, use `python audit.py prepare` first. It ge
 
 The reports, tables, and figures can be read directly from this repository. Regenerating them with `python audit.py report` requires the matching local setup and complete response caches. Raw response logs and internal metrics caches are generated locally. With a complete cache, reporting does not require Ollama to be running.
 
+For the course submission, [Reproducibility](REPRODUCIBILITY.md) records the evaluated commit, gives links to the exact model builds, and explains how to regenerate the submitted results from the separate response archive.
+
 ## Repository layout
 
 | Path | Contents |
